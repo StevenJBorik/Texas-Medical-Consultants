@@ -367,7 +367,7 @@
     display: block;
   }
   body.scroll #navigation #navbar-menu ul li a {
-    color: #1a1a1a;
+    color: #000;
   }
   body.scroll #dark-mode-toggle svg path {
     fill: #000;
@@ -513,19 +513,21 @@
 @media only screen and (min-width: 1024px) {
   body.dark-mode #navigation .background-color-div {
     /* background-color: var(--dark); */
-    background: linear-gradient(0.50turn, #428AF5, #FC6268, #DFDD67);
+    background: linear-gradient(0.2turn, #428AF5, #FC6268, #DFDD67);
   }
   body.dark-mode #navigation .logo .light {
     display: block;
   }
-  body.dark-mode #navigation .logo .dark {
+  body.dark-mode #navigation .logo .dark { 
     display: none !important;
   }
   body.dark-mode #navigation #navbar-menu ul li a {
     color: #fff;
   }
   body.dark-mode #navigation #navbar-menu ul li a:before {
-    background: var(--accent);
+    /* background: var(--accent); */
+    background: #5cbe86
+
   }
 }
 /*-- -------------------------- -->
