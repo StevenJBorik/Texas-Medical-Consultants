@@ -24,9 +24,13 @@ eleventyNavigation:
       <p class="cs-text">
         Take charge of your health with the help of our specialized therapies and products. 
       </p>
-      <a href="" class="cs-button-solid">Explore More</a>
+      <a href="" class="cs-button-solid">
+        <span class="front">
+          Explore More
+        </span>
+      </a>
       <a href="" class="cs-button-transparent">
-        <img
+        <!-- <img
           class="cs-img"
           loading="lazy"
           decoding="async"
@@ -34,8 +38,10 @@ eleventyNavigation:
           alt="play icon"
           width="17"
           height="17"
-/>
-        Learn More
+        /> -->
+        <span class="front">
+          Learn More
+        </span>
       </a>
     </div>
   </div>
@@ -55,42 +61,42 @@ eleventyNavigation:
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service1.svg"
+        src="/assets/svgs/medicine.gif"
         alt="appliance"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 1</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
+    <h2>Vitamins</h2>
+    <p>All products are hand-selected by our team of medical professionals to ensure you receive the best possible support for your individual needs.</p>
   </div>
   <div class="card">
     <picture>
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service2.svg"
+        src="/assets/svgs/dropper.gif"
         alt="appliance"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 2</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
+    <h2>Therapy</h2>
+    <p> In addition to personal injury rehabilitation, our hydration and oxygen therapies garuantee you will be back at peak performance in no time. </p>
   </div>
   <div class="card">
     <picture>
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service3.svg"
+        src="/assets/svgs/squats.gif"
         alt="appliance"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 3</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
+    <h2>Wellness</h2>
+    <p> We are dedicated to providing comprehensive wellness ervices to help you achieve optimal health and well-being.</p>
   </div>
 </section>
 
@@ -102,13 +108,13 @@ eleventyNavigation:
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
-      {% image './src/images/cabinets2.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
-      {% image './src/images/construction.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
+      {% image './src/images/hydration.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
+      {% image './src/images/vitamins.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
     </div>
     <!-- Right Content Section-->
     <div class="cs-right">
-      <span class="cs-topper">About Us</span>
-      <h2 class="cs-title">About Company Title</h2>
+      <!-- <span class="cs-topper">About Us</span> -->
+      <h2 class="cs-title">About Us</h2>
       <p class="cs-text">
         In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis
         libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei
@@ -136,7 +142,11 @@ eleventyNavigation:
           height="77"
 />
       </div>
-      <a href="/about" class="button-solid">More About Us</a>
+      <a href="/about" class="button-solid">
+        <span class="front">
+          About Us
+        </span>
+      </a>
     </div>
   </div>
 </section>
@@ -145,67 +155,98 @@ eleventyNavigation:
 <!--            Extra Content To Rank             -->
 <!-- ============================================ -->
 
-<section id="sbs-r">
-  <div class="cs-container">
-    <!-- Left Image Section -->
-    <div class="cs-left">
-      {% image './src/images/construction.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
-      {% image './src/images/cabinets2.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
-    </div>
-    <!-- Right Content Section-->
-    <div class="cs-right">
-      <span class="cs-topper">SEO Ranking</span>
-      <h2 class="cs-title">Talk about a main service keyword</h2>
-      <p class="cs-text">
-        In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis
-        libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei
-        aptent taciti sociosqu ad litora torquent per.
-      </p>
-      <p class="cs-text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id
-        voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam.
-        Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia
-        eligendi sapiente eos.
-      </p>
-      <a href="" class="button-solid">Learn More About Thing</a>
-    </div>
-  </div>
-</section>
 
 <!-- ============================================ -->
 <!--                   Gallery                    -->
 <!-- ============================================ -->
-
-<section id="gallery">
+<section id="gallery-header">
   <div class="cs-container">
-    <span class="cs-topper">Our Portfolio</span>
-    <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
-    <div class="cs-image-group">
-      <!-- Row 1-->
-      <div class="cs-row cs-row-1">
-        {% image './src/images/portfolio/port1.jpg', 'new hallway', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port4.jpg', 'new home construction', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port7.jpg', 'building a new wall', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-      <!-- Row 2 -->
-      <div class="cs-row cs-row-2">
-        {% image './src/images/portfolio/port2.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port5.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port8.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-      <!-- Row 3 -->
-      <div class="cs-row cs-row-3">
-        {% image './src/images/portfolio/port3.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port6.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port9.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+    <span class="cs-topper">Scheduling Forms</span>
+  </div>
+</section>
+<section id="gallery" class="gallery">
 
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
+    <!-- <h2 class="cs-title">Et orci volutpat, back up generator installations</h2> -->
+    <div class="card">
+      <h2>Form 1</h2>
+      <p>Form 1 Desc</p>
+      <picture>
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/svgs/download.gif"
+          width="48"
+          height="48"
+  />
+      </picture>
     </div>
-    <a href="/projects" class="button-solid">View Full Gallery</a>
+    <div class="card">
+      <h2>Form 2</h2>
+      <p>Form 2 Desc</p>
+      <picture>
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/svgs/download.gif"
+          width="48"
+          height="48"
+  />
+      </picture>
+    </div>
+    <div class="card">
+      <h2>Form 3</h2>
+      <p> Form 3 Desc</p>
+      <picture>
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/svgs/download.gif"
+          width="48"
+          height="48"
+  />
+      </picture>
+    </div>
+    <div class="card">
+      <h2>Form 4</h2>
+      <p>Form 4 Desc</p>
+      <picture>
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/svgs/download.gif"
+          width="48"
+          height="48"
+  />
+      </picture>
+    </div>
+    <div class="card">
+      <h2>Form 5</h2>
+      <p>Form 5 Desc</p>
+      <picture>
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/svgs/download.gif"
+          width="48"
+          height="48"
+  />
+      </picture>
+    </div>
+    <div class="card">
+      <h2>Form 6</h2>
+      <p>Form 6 Desc</p>
+      <picture>
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/svgs/download.gif"
+          width="48"
+          height="48"
+  />
+      </picture>
+    </div>
+  
+    <!-- <a href="/projects" class="button-solid">View Full Gallery</a> -->
   </div>
 </section>
 

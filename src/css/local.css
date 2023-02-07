@@ -163,7 +163,7 @@
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
   body.dark-mode #sbs .cs-topper {
-    color: var(--primaryLight);
+    color: #fff;
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
@@ -173,7 +173,7 @@
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #sbs .cs-flex-group {
-    background-color: var(--accent);
+    background-color: #FC6268;
   }
   body.dark-mode #sbs .cs-job {
     color: var(--bodyTextColorWhite);
@@ -372,18 +372,36 @@
 <--- -------------------------- -*/
 /* Mobile - 360px - Contains hover animation */
 @media only screen and (min-width: 0em) {
-  #gallery {
-    /* Centers button */
-    text-align: center;
-    padding: var(--sectionPadding);
-    position: relative;
-    /* Prevents overflow from the image going off screen */
-    overflow: hidden;
-  }
-  #gallery .cs-container {
-    width: 100%;
-    max-width: 82.625em;
+  .gallery {
+    border-radius: 0.3125em;
     margin: auto;
+    margin-top: 5.4375em;
+    position: relative;
+    z-index: 100;
+    background: #fff;
+    width: 90%;
+    max-width: 82.5em;
+    padding: 3.125em 1.25em;
+    border-top: 0.375em solid #DFDD67;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    margin-bottom: 3.125em;
+  }
+
+  .gallery .card picture {
+    background: var(--primary);
+    width: 5.5em;
+    height: 5.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1.4375em;
+    border-radius: 50%;
+  }
+  .gallery .card picture img {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
   }
   #gallery .cs-topper {
     font-size: var(--topperFontSize);
@@ -392,23 +410,65 @@
     text-align: center;
     letter-spacing: .1em;
     font-weight: 700;
+    text-align: center;
     color: var(--primary);
     margin-bottom: 1rem;
     display: block;
   }
-  #gallery .cs-title {
-    font-size: var(--headerFontSize);
-    font-weight: 700;
-    line-height: 1.2em;
+  #gallery-header {
+    /* Centers the button */
     text-align: center;
-    max-width: 38.8125rem;
-    margin: 0 auto;
-    margin-bottom: 2.5rem;
-    color: var(--headerColor);
+    padding: 1em;
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    max-width: 43.75rem;
+    margin: 0 auto 1rem;
+    color: #fff;
     position: relative;
   }
-  #gallery .cs-image-group {
-    /* used rem so it doesn't scale with the font size of on parent */
+  #gallery-header .cs-container {
+    width: 100%;
+    max-width: 69rem;
+    margin: auto;
+  }
+
+  /* .services .card h2 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.35em;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.65em;
+  }
+  .services .card p {
+    text-align: center;
+    line-height: 1.33333333em;
+    width: 100%;
+    opacity: .7;
+  }
+} */
+
+  /* #gallery .cs-container{
+    font-size: min(1.8vw, 1em);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 98%;
+  } */
+  /* #gallery .card {
+    margin: 0;
+    max-width: 20.3125em;
+  } */
+
+  /* #gallery .cs-container {
+    width: 100%;
+    max-width: 82.625em;
+    margin: auto;
+  } */
+  /* 
+*/
+  /* #gallery .cs-image-group {
     font-size: min(1.1vw, 1em);
     width: 100%;
     max-width: 82.625em;
@@ -418,8 +478,8 @@
     justify-content: center;
     align-items: flex-start;
     gap: 1.875em;
-  }
-  #gallery .cs-row {
+  } */
+  /* #gallery .cs-row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -473,13 +533,53 @@
   #gallery .cs-row-3 .cs-picture-3 {
     width: 26.25em;
     height: 39.3125em;
+  } */
+  
+}
+
+@media only screen and (min-width: 768px) {
+  .gallery {
+    font-size: min(1.8vw, 1em);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 98%;
+  }
+  .gallery .card {
+    margin: 0;
+    max-width: 20.3125em;
   }
 }
+
+@media only screen and (min-width: 1300px) {
+  .gallery {
+    padding: 3.125em 5em;
+    border-radius: .5em;  
+  }
+  .gallery .card {
+    max-width: 22.3125em;
+  }
+}
+
 /* Dark mode */
 @media only screen and (min-width: 0em) {
-  body.dark-mode #gallery .cs-title {
-    color: var(--bodyTextColorWhite);
+  body.dark-mode #gallery {
+    background: #FC6268;
   }
+  body.dark-mode #gallery picture {
+    background:#5cbe86;
+    width: 3.75em; 
+    height: 3.75em;
+    text-align:center;
+  }
+  body.dark-mode #gallery h2 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
 }
 /*-- -------------------------- -->
 <---          Reviews           -->

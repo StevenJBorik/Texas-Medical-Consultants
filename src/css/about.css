@@ -67,7 +67,7 @@
     text-align: left;
     letter-spacing: .1em;
     font-weight: 700;
-    color: var(--primary);
+    color: #fff;
     margin-bottom: 0.25rem;
     display: block;
   }
@@ -163,7 +163,7 @@
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
   body.dark-mode #sbs .cs-topper {
-    color: var(--primaryLight);
+    color: #fff;
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
@@ -173,7 +173,7 @@
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #sbs .cs-flex-group {
-    background-color: var(--accent);
+    background-color:#FC6268;
   }
   body.dark-mode #sbs .cs-job {
     color: var(--bodyTextColorWhite);
