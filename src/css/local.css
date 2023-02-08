@@ -738,7 +738,7 @@
   }
   .cs-buttons .front{
     display: block;
-    padding-left: 2.3em;
+    padding-left: 0em;
     border-radius: 12px;
     font-size: 1.25rem;
     background-color:#FC6268; 
