@@ -94,7 +94,6 @@
   }
   .button-solid {
     font-size: 1rem;
-    /* 46px - 56px */
     line-height: clamp(2.875em, 5.5vw, 3.5em);
     width: 11.25rem;
     text-decoration: none;
