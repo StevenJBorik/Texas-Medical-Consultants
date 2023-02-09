@@ -644,16 +644,17 @@
     text-align: center;
   }
   #footer .left-section .logo {
-    display: inline-block;
+    display:contents;
     margin: auto;
-    width: auto;
+    width: 1.2em;
     height: 8.125em;
     margin-bottom: 1.875em;
     text-align: center;
   }
   #footer .left-section .logo img {
-    width: 150%;
-    height: 150%;
+    width: 15%;
+    height: 20%;
+    margin-left: 2em; 
     /* display: block; */
   }
   /* #navigation .logo {
@@ -794,15 +795,15 @@
   #footer .left-section {
     width: 25.5625rem;
     margin: 0;
-    text-align: left;
+    text-align: right;
   }
   #footer .left-section .logo {
-    text-align: left;
+    text-align: right;
     margin-left: 0;
     height: 4.375rem;
   }
   #footer .left-section p {
-    text-align: left;
+    text-align: right;
     margin-left: 0;
   }
   #footer .right-section {
@@ -851,5 +852,6 @@
 @media only screen and (min-width: 0em) {
   body.dark-mode #footer {
     background: #FC6268;
+
   }
 }
