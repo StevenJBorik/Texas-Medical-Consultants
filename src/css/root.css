@@ -476,7 +476,7 @@
     display: block;
     width: 100%;
     height: 0.375rem;
-    background: var(--primary);
+    background: #5cbe86;
     opacity: 1;
     bottom: 0.125rem;
     border-radius: 0.1875rem;
@@ -517,7 +517,7 @@
     color: #fff;
   }
   body.dark-mode #navigation #navbar-menu ul li a:before {
-    background: var(--accent);
+    background: #5cbe86;
   }
   body.dark-mode #navigation #navbar-menu ul li a.active {
     color: var(--primary);
@@ -760,7 +760,7 @@
     width: 96%;
     margin: auto;
     text-align: center;
-    margin-top: 6.25rem;
+    margin-top: 1.25rem;
     line-height: 2.25rem;
     font-size: 1rem;
   }

@@ -293,8 +293,9 @@
     max-width: 82.5em;
     padding: 3.125em 1.25em;
     border-top: 0.375em solid #DFDD67;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05); */
     margin-bottom: 3.125em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   }
   .services .card {
     display: block;
@@ -307,9 +308,9 @@
     margin-bottom: 0;
   }
   .services .card picture {
-    background: var(--primary);
-    width: 5.5em;
-    height: 5.5em;
+    background: #5cbe86;
+    width: 3.75em;
+    height: 3.75em;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -15,6 +15,7 @@
     align-items: center;
     flex-direction: column;
     row-gap: 2.5rem;
+    
   }
   #sbs .cs-left {
     /* scaling the font size with the view width */
@@ -59,6 +60,7 @@
   #sbs .cs-right {
     margin: auto;
     max-width: 33.875rem;
+    
   }
   #sbs .cs-topper {
     font-size: var(--topperFontSize);
@@ -142,13 +144,28 @@
     flex-flow: row;
     justify-content: space-between;
     gap: 3.25rem;
+    
   }
   #sbs .cs-left {
     font-size: min(1.2vw, 1em);
     flex: none;
   }
-  #sbs .cs-right {
-    margin: 0;
+
+  #sbs .card {
+    /* margin: 0; */
+      border-radius: 0.3125em;
+      margin: auto;
+      margin-top: -10.4375em;
+      position: relative;
+      z-index: 100;
+      background: #fff;
+      width: 90%;
+      max-width: 82.5em;
+      padding: 3.125em 1.25em;
+      border-top: 0.375em solid #DFDD67;
+      /* box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05); */
+      margin-bottom: 3.125em;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   }
 }
 /* Dark Mode */
