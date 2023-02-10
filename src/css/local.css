@@ -390,7 +390,7 @@
   .gallery .card picture {
     background: var(--primary);
     width: 3.5em;
-    height: 3.5em;
+    height: 3.55em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,7 +411,7 @@
     letter-spacing: .1em;
     font-weight: 700;
     text-align: center;
-    color: var(--primary);
+    color: #000;
     margin-bottom: 1rem;
     display: block;
   }
@@ -424,7 +424,7 @@
     line-height: 1.2em;
     max-width: 43.75rem;
     margin: 0 auto 1rem;
-    color: #fff;
+    color: #000;
     position: relative;
   }
   #gallery-header .cs-container {
@@ -606,7 +606,7 @@
     text-align: center;
     letter-spacing: .1em;
     font-weight: 700;
-    color: var(--primary);
+    color: #000;
     margin-bottom: 1rem;
     display: block;
   }
@@ -646,7 +646,7 @@
     padding: 3.75rem clamp(1rem, 3.2vw, 2rem) 0;
     /* 32px - 40px */
     padding-bottom: clamp(2rem, 5.4vw, 2.5rem);
-    box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 0.25rem;
     background: #fff;
     position: relative;

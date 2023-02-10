@@ -98,6 +98,7 @@
 @media only screen and (min-width: 0em) {
   body.dark-mode #reviews .review {
     background: var(--medium);
+    
   }
   body.dark-mode #reviews .review .name {
     color: #fff;
