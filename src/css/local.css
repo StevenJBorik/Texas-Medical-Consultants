@@ -45,12 +45,15 @@
     height: 36.3125em;
     left: 0;
     top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   }
   #sbs .cs-picture2 {
     width: 25.875em;
     height: 25em;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
     /* 6px - 12px */
     border: clamp(0.375em, 1.5vw, 0.75em) solid #ffffff;
     right: 0;
