@@ -17,10 +17,10 @@ eleventyNavigation:
 <!--                    LANDING                   -->
 <!-- ============================================ -->
 
-<section id="int-hero">
+<!-- <section id="int-hero">
   <h1 id="home-h">Contact Us</h1>
   {% image './src/images/cabinets2.jpg', 'cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
-</section>
+</section> -->
 
 <!-- ============================================ -->
 <!--                Contact Form                  -->
@@ -32,9 +32,9 @@ eleventyNavigation:
       <div class="cs-content">
         <span class="cs-topper">Contact</span>
         <h2 class="cs-title">Get in Touch</h2>
-        <p class="cs-text">
+        <!-- <p class="cs-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.
-                </p>
+                </p> -->
       </div>
       <label>
                 Name
@@ -56,7 +56,11 @@ eleventyNavigation:
                 Message
                 <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
       </label>
-      <button class="cs-button-solid" type="submit">Submit Message</button>
+      <a href="/" class="cs-button-solid">
+        <span class="front">
+          Send Message
+        </span>
+      </a>
     </form>
     <div class="cs-right-section">
       <!--Email-->
@@ -70,7 +74,7 @@ eleventyNavigation:
       <a class="cs-link" href="">2553 Woodbridge Lane, <span class="cs-block">Boston Ware 120</span></a>
 
       <!-- Background Image-->
-      {% image './src/images/skyscraper.jpg', 'building', '', 'lazy'%}
+      <!-- {% image './src/images/skyscraper.jpg', 'building', '', 'lazy'%} -->
     </div>
   </div>
 </section>
