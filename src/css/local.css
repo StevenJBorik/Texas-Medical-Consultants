@@ -100,7 +100,7 @@
   #sbs .cs-flex-group {
     /* 16px - 32px */
     padding: clamp(1rem, 3vw, 2rem);
-    background-color: #F7F7F7;
+    background-color: #FC6268;
     border-radius: 1rem;
     position: relative;
   }
@@ -109,7 +109,7 @@
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     line-height: 1.5em;
     margin: 0 0 1rem;
-    color: #767676;
+    color: #000;
   }
   #sbs .cs-name {
     font-size: 1rem;

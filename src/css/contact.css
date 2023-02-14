@@ -167,7 +167,7 @@
     line-height: 1.2em;
     font-weight: 700;
     margin-bottom: 2.5rem;
-    color: var(--bodyTextColorWhite);
+    color: #000;
     display: block;
   }
   #cs-contact .cs-link {
@@ -176,7 +176,7 @@
     line-height: 1.2em;
     text-decoration: none;
     margin-bottom: 1.25rem;
-    color: var(--bodyTextColorWhite);
+    color: #000;
     display: block;
     position: relative;
   }
@@ -324,5 +324,24 @@
   body.dark-mode #cs-contact .cs-bg-picture img {
     /* lets parent background-color bleed through and darken it */
     opacity: .5;
+  }
+  body.dark-mode #cs-contact .cs-header {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    color: var(--bodyTextColorWhite);
+    display: block;
+  }
+  body.dark-mode #cs-contact .cs-link {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    line-height: 1.2em;
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+    color: var(--bodyTextColorWhite);
+    display: block;
+    position: relative;
   }
 }
