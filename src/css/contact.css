@@ -277,7 +277,6 @@
     max-width: 33.875rem;
     /* prevents flexbox from squishing it */
     flex: none;
-    padding-top: 15rem;
   }
   #cs-contact .cs-right-section:hover .cs-bg-picture {
     transform: scale(1.1);
