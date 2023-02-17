@@ -271,11 +271,13 @@
   }
   #cs-contact .cs-right-section {
     /* changes to 578px at 1300px wide */
-    height: 25.875rem;
+    /* margin-top: 3rem; */
+    height: 20.875rem;
     width: 40%;
     max-width: 33.875rem;
     /* prevents flexbox from squishing it */
     flex: none;
+    padding-top: 15rem;
   }
   #cs-contact .cs-right-section:hover .cs-bg-picture {
     transform: scale(1.1);
