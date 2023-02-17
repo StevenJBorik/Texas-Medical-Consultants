@@ -150,10 +150,10 @@
   } */
   #cs-contact .cs-right-section {
     position: relative;
-    height: 20rem;
+    height: 25rem;
     /* 24px - 40px top & bottom */
     /* 20px - 40px left & right */
-    padding: clamp(1.5rem, 3vw, 1.5rem) clamp(1.25rem, 3vw, 2.5rem);
+    padding: clamp(.5rem, 3vw, 2.5rem) clamp(1.25rem, 3vw, 2.5rem);
     border-radius: 0.5rem;
     /* cuts off corners on img tag */
     overflow: hidden;
