@@ -272,7 +272,7 @@
   #cs-contact .cs-right-section {
     /* changes to 578px at 1300px wide */
     /* margin-top: 3rem; */
-    height: 20.875rem;
+    height: 30em;
     width: 40%;
     max-width: 33.875rem;
     /* prevents flexbox from squishing it */
